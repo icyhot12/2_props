@@ -13,7 +13,7 @@ function Card(props) {
                 <div className="localisation">
                     <FontAwesomeIcon icon={faLocationDot} color="red"/>
                     <p className="place">{item.location}</p>
-                    <a href={item.googleMapsUrl} className="google-link">View on Google Maps</a>
+                    <a href={item.googleMapsUrl} className="google-link" target="_blank">View on Google Maps</a>
                 </div>
                 <div className="title">{item.title}</div>
                 <div className="dates">{item.startDate}-{item.endDate}</div>
