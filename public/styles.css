@@ -4,6 +4,92 @@ html,body {
     font-family: 'Inter', sans-serif;
 }
 
+body {
+    background-color: #e5e5e5;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    margin: 0;
+}
+
+.main-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    margin: 50px auto;
+}
+
+.navbar-container {
+    color: white;
+    background-color: #f55a5a;
+    width: 550px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: -1.3px;
+    margin-bottom: 20px;
+}
+
+.item-card {
+    display: flex;
+    gap: 10px;
+    width: 500px;
+    padding-bottom: 20px;
+}
+
 .photo {
-    width: 300px;
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.localisation {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.place {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.google-link {
+    font-size: 0.8rem;
+    text-decoration: underline;
+    color: rgb(114, 112, 112);
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.dates {
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 0.8rem;
+    letter-spacing: 0.8px;
+    font-weight: 300;
 }

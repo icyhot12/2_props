@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./Navbar";
 import Card from "./Card";
 import data from "./data";
 
@@ -13,7 +14,8 @@ const cards = data.map(element => {
 
 function App() {
   return (
-    <div>
+    <div className="main-container">
+      <Navbar />
       {cards}
     </div>
   );
